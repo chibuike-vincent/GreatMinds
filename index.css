@@ -1,0 +1,52 @@
+.container {
+  width: 80%;
+  height: 800px;
+  margin: 5%;
+  box-shadow: 2px 5px 5px 5px;
+  background: rgb(78, 78, 228)
+}
+.container h1 {
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  font-style: italic;
+}
+
+.container span {
+  color: red;
+  font-style: normal;
+}
+
+.search_content {
+  width: 80%;
+  height: 600px;
+  margin-left: 9%;
+  box-shadow: 2px 5px 5px 5px;
+  background: white;
+  justify-items: center
+}
+
+.input_container {
+  
+  width: 100%;
+  
+  height: 110px;
+}
+
+
+.input_container button {
+  height: 50px;
+  color: blue
+}
+
+.input_container button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#content {
+  width: 90%;
+  padding: 2rem;
+  word-break: break-all;
+  box-shadow: 2px 5px 5px 5px;
+}
